@@ -1,0 +1,8 @@
+* {
+    font-family: 'Roboto Mono', 'SF Mono', SFMono-Regular, ui-monospace,
+    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+}
+
+h1 {
+    text-transform: uppercase;
+}
