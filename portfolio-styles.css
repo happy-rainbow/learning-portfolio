@@ -1,8 +1,26 @@
 * {
-    font-family: 'Roboto Mono', 'SF Mono', SFMono-Regular, ui-monospace,
+    font-family: Roboto Mono Thin, 'SF Mono', SFMono-Regular, ui-monospace,
     'DejaVu Sans Mono', Menlo, Consolas, monospace;
 }
 
 h1 {
     text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contents-menu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contents-card {
+    max-width: 400px;
+    min-width: 300px;
+
+}
+
+.contents-card > img {
+    width: 100%;
 }
