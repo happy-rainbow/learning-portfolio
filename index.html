@@ -2,18 +2,50 @@
 <html>
 <head>
     <link rel="stylesheet" href="portfolio-styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-<h1>Doug Roberts / Projects</h1>
-<div class="contents-menu">
-    <div class="contents-card">
-        <img src="Images\project-1.png"/>
+<div class="heading">
+    <h1>Doug Roberts / Projects</h1>
+</div>
+<div class="portfolio">
+    <div class="contents-menu">
+        <div class="contents-card" onclick="document.getElementById('project-1').classList.add('portfolio-page');">
+            <img src="Images\project-1.png"/>
+            <h2>Project 1</h2>
+        </div>
+        <div class="contents-card" onclick="document.getElementById('project-2').classList.add('portfolio-page');">
+            <img src="Images\project-1.png"/>
+            <h2>Project 2</h2>
+        </div>
+        <div class="contents-card" onclick="document.getElementById('project-3').classList.add('portfolio-page');">
+            <img src="Images\project-1.png"/>
+            <h2>Project 3</h2>
+        </div>
     </div>
-    <div class="contents-card">
-        <img src="Images\project-1.png"/>
+    <div class="portfolio-page-hidden" id="project-1">
+        <h3>Project 1 title</h3>
+        <div class="close-button" onclick="document.getElementById('project-1').classList.remove('portfolio-page');">
+            <img src="Images\Close.svg"/>
+        </div>
+        <img src="Images\video-placeholder.png"/>
+        <p>One evening at Pyrmont, the weather being too wet and melancholy to permit of her enjoying the charms of nature, to which her pure soul is so closely allied, she had recourse to the Temple of Thalia, where Naumann's Opera of Cora happened to be represented. The performers were of a very inferior kind, and the only thing that pleased me during the evening, was that I had the good fortune to sit behind my Friend, who sometimes condescended to favour her humble servant with a little conversation. Among other remarks which the occasion called forth, she observed once, when the conclusion of an act gave us a short respite from being merely auditors, that the Opera at which we were present, contained excellent ground work for a Drama.</p>
     </div>
-    <div class="contents-card">
-        <img src="Images\project-1.png"/>
+    <div class="portfolio-page-hidden" id="project-2">
+        <h3>Project 2 title</h3>
+        <div class="close-button" onclick="document.getElementById('project-2').classList.remove('portfolio-page');">
+            <img src="Images\Close.svg"/>
+        </div>
+        <img src="Images\video-placeholder.png"/>
+        <p>One evening at Pyrmont, the weather being too wet and melancholy to permit of her enjoying the charms of nature, to which her pure soul is so closely allied, she had recourse to the Temple of Thalia, where Naumann's Opera of Cora happened to be represented. The performers were of a very inferior kind, and the only thing that pleased me during the evening, was that I had the good fortune to sit behind my Friend, who sometimes condescended to favour her humble servant with a little conversation. Among other remarks which the occasion called forth, she observed once, when the conclusion of an act gave us a short respite from being merely auditors, that the Opera at which we were present, contained excellent ground work for a Drama.</p>
+    </div>
+    <div class="portfolio-page-hidden" id="project-3">
+        <h3>Project 3 title</h3>
+        <div class="close-button" onclick="document.getElementById('project-3').classList.remove('portfolio-page');">
+            <img src="Images\Close.svg"/>
+        </div>
+        <img src="Images\video-placeholder.png"/>
+        <p>One evening at Pyrmont, the weather being too wet and melancholy to permit of her enjoying the charms of nature, to which her pure soul is so closely allied, she had recourse to the Temple of Thalia, where Naumann's Opera of Cora happened to be represented. The performers were of a very inferior kind, and the only thing that pleased me during the evening, was that I had the good fortune to sit behind my Friend, who sometimes condescended to favour her humble servant with a little conversation. Among other remarks which the occasion called forth, she observed once, when the conclusion of an act gave us a short respite from being merely auditors, that the Opera at which we were present, contained excellent ground work for a Drama.</p>
     </div>
 </div>
 </body>
