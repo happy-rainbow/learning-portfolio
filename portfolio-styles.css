@@ -18,9 +18,14 @@ h1 {
 .contents-card {
     max-width: 400px;
     min-width: 300px;
-
 }
 
 .contents-card > img {
     width: 100%;
+}
+
+@media only screen and (max-width:400px) {
+    .contents-card {
+        width: 100%;
+    }
 }
