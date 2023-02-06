@@ -12,12 +12,14 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    letter-spacing: 2px;
     font-size: 0.8rem;
     margin: 0;
 }
 
 h3 {
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 p {
@@ -33,7 +35,7 @@ p {
 .portfolio {
     display: flex;
     position: relative;
-    max-width: 1200px;
+    max-width: 1300px;
     justify-content: center;
     margin: auto;
 }
@@ -41,6 +43,7 @@ p {
 .contents-menu {
     display: flex;
     flex-wrap: wrap;
+    z-index: 2;
 }
 
 .contents-card {
@@ -63,17 +66,20 @@ p {
 }
 
 .portfolio-page-hidden {
-    display: none;
+    opacity: 0;
+    z-index: 1;
     position: absolute;
     width: 100%;
     background-color: #f2f2f2;
     padding-left: 20px;
     padding-right: 20px;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
 }
 
 .portfolio-page {
-    display: block;
+    opacity: 1;
+    z-index: 11;
 }
 
 .portfolio-page img,
