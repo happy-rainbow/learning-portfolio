@@ -1,35 +1,5 @@
-@font-face {
-    font-family: RobotoMonoLight;
-    src: url(Fonts\RobotoMono-Light.ttf);
-}
-
-@font-face {
-    font-family: RobotoMonoThin;
-    src: url(Fonts\RobotoMono-Thin.ttf);
-}
-
-@font-face {
-    font-family: RobotoMonoRegular;
-    src: url(Fonts\RobotoMono-Regular.ttf);
-}
-
-@font-face {
-    font-family: RobotoLight;
-    src: url(Fonts\Roboto-Light.ttf);
-}
-
-@font-face {
-    font-family: RobotoThin;
-    src: url(Fonts\Roboto-Thin.ttf);
-}
-
-@font-face {
-    font-family: RobotoRegular;
-    src: url(Fonts\Roboto-Regular.ttf);
-}
-
 * {
-    font-family: RobotoMonoThin;
+    font-family: "Roboto Mono Thin";
     font-size: 16px;
 }
 
@@ -69,7 +39,7 @@ h3 {
 }
 
 p {
-    font-family: Roboto Thin;
+    font-family: "Roboto Thin";
     letter-spacing: 1px;
     line-height: 1.5rem;
 }
