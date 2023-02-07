@@ -179,6 +179,46 @@ p {
     width:22px;
 }
 
+details {
+
+}
+
+.cv-content {
+    display: flex;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+}
+
+summary {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    margin: 0;
+    cursor: pointer;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+summary:before {
+    content: '';
+    border-width: .4rem;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 1.3rem;
+    left: 1rem;
+    transform: rotate(0);
+    transform-origin: .2rem 50%;
+    transition: .25s transform ease;
+}
+
+details[open] > summary:before {
+    transform: rotate(90deg);
+}
+
 @media only screen and (max-width:600px) {
     .contents-card {
         width: 100%;
