@@ -1,6 +1,35 @@
+@font-face {
+    font-family: RobotoMonoLight;
+    src: url(Fonts\RobotoMono-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoMonoThin;
+    src: url(Fonts\RobotoMono-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoMonoRegular;
+    src: url(Fonts\RobotoMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(Fonts\Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoThin;
+    src: url(Fonts\Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(Fonts\Roboto-Regular.ttf);
+}
+
 * {
-    font-family: Roboto Mono Thin, 'SF Mono', SFMono-Regular, ui-monospace,
-    'DejaVu Sans Mono', Menlo, Consolas, monospace;
+    font-family: RobotoMonoThin;
     font-size: 16px;
 }
 
