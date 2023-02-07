@@ -52,13 +52,26 @@ p {
 }
 
 .menu-button {
-    background-color: red;
+    background-image: url(Images/Menu.svg);
+    background-size: 30px;
+    background-repeat: no-repeat;
     z-index: 11;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     position: fixed;
     top: 28px;
     right: 20px;
+    transition: 0.3s;
+}
+
+.menu-button-close {
+    background-image: url(Images/Close.svg);
+}
+
+.menu-button:hover {
+    width: 32px;
+    height: 32px;
+    background-size: 32px;
 }
 
 .menu-hidden {
