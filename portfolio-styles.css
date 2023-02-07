@@ -89,7 +89,7 @@ p {
     color: transparent;
     width: 10px;
     height: 10px;
-    background-image: url(/Images/selected-01.svg);
+    background-image: url(Images/selected-01.svg);
     background-size: 8px;
     background-repeat: no-repeat;
     position: relative;
