@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
 
 * {
     font-family: "Roboto Mono";
@@ -41,6 +41,13 @@ h3 {
     letter-spacing: 2px;
 }
 
+h4 {
+    font-family: "Roboto";
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+}
+
 p {
     font-family: "Roboto";
     letter-spacing: 1px;
@@ -58,7 +65,7 @@ p {
     z-index: 11;
     width: 30px;
     height: 30px;
-    position: fixed;
+    position: absolute;
     top: 28px;
     right: 20px;
     transition: 0.3s;
@@ -66,6 +73,7 @@ p {
 
 .menu-button-close {
     background-image: url(Images/Close.svg);
+    position: fixed;
 }
 
 .menu-button:hover {
@@ -180,12 +188,11 @@ p {
 }
 
 details {
-
+    margin: 5px;
 }
 
 .cv-content {
-    display: flex;
-    position: relative;
+    display: block;
     max-width: 1300px;
     margin: auto;
 }
@@ -193,23 +200,27 @@ details {
 summary {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.8rem;
-    margin: 0;
+    padding: 1rem;
+    position: relative;
     cursor: pointer;
+    background-color: #f2f2f2;
 }
 
-details summary::-webkit-details-marker {
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
     display: none;
-}
+  }
 
 summary:before {
     content: '';
     border-width: .4rem;
     border-style: solid;
-    border-color: transparent transparent transparent #fff;
+    border-color: transparent transparent transparent #000;
     position: absolute;
     top: 1.3rem;
-    left: 1rem;
+    right: 1rem;
     transform: rotate(0);
     transform-origin: .2rem 50%;
     transition: .25s transform ease;
@@ -217,6 +228,11 @@ summary:before {
 
 details[open] > summary:before {
     transform: rotate(90deg);
+}
+  
+  
+details summary::-webkit-details-marker {
+    display:none;
 }
 
 @media only screen and (max-width:600px) {
