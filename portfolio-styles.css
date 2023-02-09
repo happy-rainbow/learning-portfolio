@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap');
 
+html {
+    overflow-x: hidden;
+    margin-right: calc(-1 * (100vw - 100%));
+  }
+
 * {
     font-family: "Roboto Mono";
     font-weight: 300;
