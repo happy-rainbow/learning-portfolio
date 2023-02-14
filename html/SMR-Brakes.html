@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="../smr-styles.css">
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.0/model-viewer.min.js"></script>
+</head>
+<body>
+  <!--LandingPage Begin-->
+    <div class="smr-navigation-wrapper-start">
+      <a href="#" data-reitit-handle-click="false">
+        <button id="smr-top" type="button" class="defaultstate">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M16 22L16 14" stroke="#0F1011"/>
+        <path d="M19 17L16 14L13 17" stroke="#0F1011"/>
+        <rect x="20" y="11" width="8" height="1" transform="rotate(-180 20 11)" fill="#0F1011"/>
+        </svg>
+      </button>
+      </a>
+      <a href="#sec1" data-reitit-handle-click="false">
+        <button id="smr-inspect" type="button" class="defaultstate">
+        <svg width="200" height="32" viewBox="0 0 200 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M49.5 16C49.5 16 46.5899 20 43 20C39.4101 20 36.5 16 36.5 16C36.5 16 39.4101 12 43 12C46.5899 12 49.5 16 49.5 16Z" stroke="#0F1011"/>
+        <circle cx="43" cy="16" r="2" stroke="#0F1011"/>
+        <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arrival Apercu Mono Pro" font-size="14" letter-spacing="1.5px"><tspan x="57" y="21.032">INSPECTION </tspan></text>
+        </svg>
+        </button>
+      </a>
+      <a href="#sec2" data-reitit-handle-click="false">
+        <button id="smr-operation" type="button" class="defaultstate">
+        <svg width="200" height="32" viewBox="0 0 200 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arrival Apercu Mono Pro" font-size="14" letter-spacing="1.5px"><tspan x="64" y="21.032">OPERATION</tspan></text>
+        <path d="M50.0263 14.9737L55.5 9.49998" stroke="#0F1011"/>
+        <path d="M54.8158 14.9737H50.0263V10.1842" stroke="#0F1011"/>
+        <path d="M47.9737 17.0263L42.5 22.5" stroke="#0F1011"/>
+        <path d="M43.1842 17.0263H47.9737V21.8158" stroke="#0F1011"/>
+        </svg>
+      </button>
+      </a>
+      <a href="#sec3" data-reitit-handle-click="false">
+        <button id="smr-rnr" type="button" class="defaultstate">
+        <svg width="200" height="32" viewBox="0 0 200 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <text fill="black" xml:space="preserve" style="white-space: pre" font-family="Arrival Apercu Mono Pro" font-size="14" letter-spacing="1.5px"><tspan x="37" y="21.032">REMOVE/REPLACE</tspan></text>
+      <path d="M18.5 22V12M18.5 12L15.5 15M18.5 12L21.5 15M25.5 12V22M25.5 22L22.5 19M25.5 22L28.5 19" stroke="#0F1011"/>
+      </svg>
+    </button>
+    </a>
+    </div>
+  <div class="m-nav-container">
+  <a href="#sec1" data-reitit-handle-click="false">
+    <button id="inspect" class="mobile">inspection</button>
+  </a>
+  <a href="#sec2" data-reitit-handle-click="false">
+    <button id="operate" class="mobile">operation</button>
+  </a>
+  <a href="#sec3" data-reitit-handle-click="false">
+    <button id="remove" class="mobile">remove/replace</button>
+  </a>
+  </div>
+<div id="splash-page" class="splash-page" style="background-image:url(../Images/Brake-Disc.png">
+  <div class="intro"><p>Braking System</p></div>
+</div>
+<div id="smr-content">
+  <div id="sec1" class="smr-section"><!--Start of smr-section 1-->
+    <model-viewer id="front" src="../Images/Front brake.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom environment-image="neutral" shadow-intensity="0.5" exposure="0.7">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.12467512393069911m 0.5469370973320835m 0.4287388640443096m" data-normal="1.1078338574110833e-18m 0.008700151637543506m 0.9999621529645428m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-1').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.10429801409830326m 0.52255678990805m 0.2785902784415245m" data-normal="-0.00011086153071607595m -0.008724472965474852m -0.9999619349161226m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-2').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-3" data-position="0.07419489326625368m 0.525949717001795m 0.37579725926164975m" data-normal="-0.05248579565403449m 0.9985607012730588m -0.011034814344620473m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-3').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-4" data-position="0.28352929868856985m 0.5615815637404836m 0.434091865284026m" data-normal="0.9657895734571176m -0.0498494543856225m 0.25449073008456513m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-4').classList.add('visible');">
+    </button>
+</model-viewer>
+<model-viewer id="rear" src="../Images/Rear brake.glb" style="display:none;" ar ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom environment-image="neutral" shadow-intensity="0.5" exposure="0.7">
+    <button class="Hotspot" slot="hotspot-5" data-position="3.6617707785657654m 0.3199848718424976m -0.03674044342371525m" data-normal="0.0006154769698698876m 0.008856098316196541m 0.9999605945789631m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-5').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-6" data-position="3.4406167740720974m 0.30322325149235585m 0.03677803927442829m" data-normal="-0.00019832389567833622m 0.9999621259454775m -0.00870099662301405m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-6').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-7" data-position="3.426043660343142m 0.30118414019720174m 0.15535216115131895m" data-normal="0.00022851254875508943m 0.008595584926265951m 0.9999630311675479m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-7').classList.add('visible');">
+    </button>
+    <button class="Hotspot" slot="hotspot-8" data-position="3.2985362412226795m 0.32120847384767043m -0.06180357051126567m" data-normal="-0.976101456703924m 0.21729935148329702m -0.002634020769872716m" data-visibility-attribute="visible" onclick="document.querySelectorAll('#smr-cta-1,#smr-cta-2,#smr-cta-3,#smr-cta-4,#smr-cta-5,#smr-cta-6,#smr-cta-7,#smr-cta-8').forEach(close => {close.classList.remove('visible')});document.getElementById('smr-cta-8').classList.add('visible');">
+    </button>
+</model-viewer>
+<div class="image-selection-box">
+      <button id="selection-front" onclick="document.getElementById('selection-front').classList.remove('button-inactive');document.getElementById('selection-rear').classList.add('button-inactive');document.getElementById('front').style.display = 'block';document.getElementById('rear').style.display = 'none';">
+        <svg width="105" height="32" viewBox="0 0 105 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M79.9786 16.1688L90.7716 16.1688L90.7716 15.1688L79.981 15.1688L83.6262 11.5236L82.9191 10.8165L78.0656 15.67L82.9191 20.5236L83.6262 19.8165L79.9786 16.1688Z" fill="white"/>
+        <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Arrival Apercu Mono Pro" font-size="11.25" letter-spacing="0.06em"><tspan x="12" y="19.24">FRONT</tspan></text>
+        </svg>
+      </button>
+      <button id="selection-rear" class="button-inactive" onclick="document.getElementById('selection-rear').classList.remove('button-inactive');document.getElementById('selection-front').classList.add('button-inactive');document.getElementById('front').style.display = 'none';document.getElementById('rear').style.display = 'block';">
+        <svg width="105" height="32" viewBox="0 0 105 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M89.3586 15.17H78.5656L78.5656 16.17L89.3562 16.17L85.7109 19.8153L86.418 20.5224L91.2716 15.6688L86.418 10.8153L85.7109 11.5224L89.3586 15.17Z" fill="white"/>
+        <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Arrival Apercu Mono Pro" font-size="11.25" letter-spacing="0.06em"><tspan x="12" y="19.24">REAR</tspan></text>
+        </svg>
+      </button>
+    </div>
+<!--smr-cta-1 - -->
+  <div id="smr-cta-1" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-1').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Vented front Disc</h5>
+      <p>The front brake disc should be Inspected for thickness, warping and a clear contact face. </p>
+      </div>
+    </div>
+    </div>
+<!--smr-cta-2 - -->
+  <div id="smr-cta-2" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-2').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Brake Pads</h5>
+      <p>Inspect the brake pad thickness, and ensure wear sensor is located correctly.</p>
+      </div>
+    </div>
+  </div>
+<!--smr-cta-3 - -->
+  <div id="smr-cta-3" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-3').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Caliper Carrier</h5>
+      <p>Inspect the Carrier for correct fitment of the Pad locating springs.</p>
+      </div>
+    </div>
+  </div>
+  <!--smr-cta-4 - -->
+   <div id="smr-cta-4" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-4').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Front Caliper</h5>
+      <p>Inspect the Front Caliper for any signs of leaking from the dual piston seals and ensure that it has free movement on the Caliper sliders.</p>
+      </div>
+    </div>
+  </div>
+  <!--smr-cta-5 - -->
+   <div id="smr-cta-5" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-5').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Solid Rear Disc</h5>
+      <p>The rear brake disc should be inspected for thickness, warping and a clear contact face.</p>
+      </div>
+    </div>
+        </div>
+     <!--smr-cta-6 - -->
+   <div id="smr-cta-6" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-6').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Rear Brake pads</h5>
+      <p>Inspect the Brake pad thickness, and ensure wear sensor is located correctly.</p>
+      </div>
+    </div>
+        </div>
+     <!--smr-cta-7 - -->
+   <div id="smr-cta-7" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-7').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Electronic Parking Brake Motor</h5>
+      <p>Ensure Electronic Parking Brake Motor is free of any damage and debris and is secured correctly on the back of the Caliper.</p>
+    </div>
+    </div>
+        </div>
+     <!--smr-cta-8 - -->
+   <div id="smr-cta-8" class="smr-cta-wrapper">
+    <button id="smr-cta-close" type="button" onclick="document.getElementById('smr-cta-8').classList.remove('visible');"></button>
+    <div class="smr-cta">
+      <div class="smr-text-container">
+      <h5>Rear Caliper</h5>
+      <p>Inspect the rear caliper for any signs of leaking from the single piston seal and ensure that it has free movement on the Caliper sliders.</p>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div id="sec2" class="smr-section"><!--Start of smr-section 2-->
+    <video id="operation" src="../Images/Front brake operation.mp4" playsinline autoplay muted loop>
+        Your browser does not support the video tag.
+    </video>
+        <div id="rnr" class="smr-cta-wrapper visible">
+      <div class="rnr-buttons">
+      <button id="rnrbutton1" type="button" class="button-default button-active"  onclick="
+        document.querySelectorAll('#rnr1,#rnr2,#rnr3,#rnr4,#rnr5,#rnr6,#rnr7,#rnr8').forEach(close => {close.classList.remove('rnr-visible')});
+        document.getElementById('rnr1').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton2,#rnrbutton3,#rnrbutton4').forEach(close => {close.classList.remove('button-active')});
+        document.getElementById('rnrbutton1').classList.add('button-active');
+        document.getElementById('operation').src='../Images/Front brake operation.mp4';">1</button>
+      <button id="rnrbutton2" type="button" class="button-default" onclick="
+      document.querySelectorAll('#rnr1,#rnr2,#rnr3,#rnr4,#rnr5,#rnr6,#rnr7,#rnr8').forEach(close => {close.classList.remove('rnr-visible')});document.getElementById('rnr2').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton1,#rnrbutton3,#rnrbutton4').forEach(close => {close.classList.remove('button-active')});document.getElementById('rnrbutton2').classList.add('button-active');document.getElementById('operation').src='../Images/Rear brake operation.mp4';">2</button>
+      <div id="rnr1" class="rnr-text-hidden rnr-visible">
+        <div class="smr-text-container">
+        <h5>Foot brake operation</h5>
+      <p>Pressurised brake fluid is forced into the brake caliper, which then acts upon the piston moving it outwards onto the brake pad. This action causes the caliper to move towards the inner of the assembly and clamp the two brake pads on either side of the brake discs.</p>
+      </div>
+      </div>
+      <div id="rnr2" class="rnr-text-hidden">
+        <div class="smr-text-container">
+        <h5>Parking Brake Opperation</h5>
+      <p>An electrical signal is sent to the EPB motor and activates a gear system that forces a mechnical lever onto the back of the rear caliper piston assembly. This action allows the same clamping motion to the brake Discs and pads, but also allows the mechanisim to be locked in place untill a release command is sent via the driver EPB button.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div id="sec3" class="smr-section"><!--Start of smr-section 3-->
+    <img class="mimage" id="background3" src="../Images/Brakes-rnr1.png"/>
+    <div id="rnr" class="smr-cta-wrapper visible">
+      <div class="rnr-buttons">
+      <button id="rnrbutton1b" type="button" class="button-default button-active"  onclick="
+        document.querySelectorAll('#rnr1b,#rnr2b,#rnr3b,#rnr4b,#rnr5b,#rnr6b,#rnr7b,#rnr8b').forEach(close => {close.classList.remove('rnr-visible')});
+        document.getElementById('rnr1b').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton2b,#rnrbutton3b,#rnrbutton4b,#rnrbutton5b').forEach(close => {close.classList.remove('button-active')});
+        document.getElementById('rnrbutton1b').classList.add('button-active');
+        document.getElementById('background3').src='../Images/Brakes-rnr1.png';">1</button>
+      <button id="rnrbutton2b" type="button" class="button-default" onclick="
+      document.querySelectorAll('#rnr1b,#rnr2b,#rnr3b,#rnr4b,#rnr5b,#rnr6b,#rnr7b,#rnr8b').forEach(close => {close.classList.remove('rnr-visible')});document.getElementById('rnr2b').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton1b,#rnrbutton3b,#rnrbutton4b,#rnrbutton5b').forEach(close => {close.classList.remove('button-active')});document.getElementById('rnrbutton2b').classList.add('button-active');document.getElementById('background3').src='../Images/Brakes-rnr2.png';">2</button>
+      <button id="rnrbutton3b" type="button" class="button-default" onclick="document.querySelectorAll('#rnr1b,#rnr2b,#rnr3b,#rnr4b,#rnr5b,#rnr6b,#rnr7b,#rnr8b').forEach(close => {close.classList.remove('rnr-visible')});document.getElementById('rnr3b').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton1b,#rnrbutton2b,#rnrbutton4b,#rnrbutton5b').forEach(close => {close.classList.remove('button-active')});document.getElementById('rnrbutton3b').classList.add('button-active');document.getElementById('background3').src='../Images/Brakes-rnr3.png';">3</button>
+    <button id="rnrbutton4b" type="button" class="button-default" onclick="document.querySelectorAll('#rnr1b,#rnr2b,#rnr3b,#rnr4b,#rnr5b,#rnr6b,#rnr7b,#rnr8b').forEach(close => {close.classList.remove('rnr-visible')});document.getElementById('rnr4b').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton1b,#rnrbutton2b,#rnrbutton3b,#rnrbutton5b').forEach(close => {close.classList.remove('button-active')});document.getElementById('rnrbutton4b').classList.add('button-active');document.getElementById('background3').src='../Images/Brakes-rnr4.png';">4</button>
+    <button id="rnrbutton5b" type="button" class="button-default" onclick="document.querySelectorAll('#rnr1b,#rnr2b,#rnr3b,#rnr4b,#rnr5b,#rnr6b,#rnr7b,#rnr8b').forEach(close => {close.classList.remove('rnr-visible')});document.getElementById('rnr5b').classList.add('rnr-visible');document.querySelectorAll('#rnrbutton1b,#rnrbutton2b,#rnrbutton3b,#rnrbutton4b').forEach(close => {close.classList.remove('button-active')});document.getElementById('rnrbutton5b').classList.add('button-active');document.getElementById('background3').src='../Images/Brakes-rnr5.png';">5</button>
+    </div>
+      <div id="rnr1b" class="rnr-text-hidden rnr-visible">
+        <div class="smr-text-container">
+        <p>If working on Rear Brakes, ensure the electronic parking brake is deselected before any work is carried out.</p>
+        <p>Disconect the brake pad warning wire.</p>
+        <p>For the rear caliper only, remove electronic parking brake motor and back off caliper internals (turn spindle anti-clockwise).</p>
+      </div>
+      </div>
+      <div id="rnr2b" class="rnr-text-hidden">
+        <div class="smr-text-container">
+        <p>Remove brake caliper by loosening & removing the bottom caliper bolt to allow the caliper to be pivioted upwards, then slide the unit off the top slider.</p>
+      </div>
+      </div>
+      <div id="rnr3b" class="rnr-text-hidden">
+        <div class="smr-text-container">
+        <p>Remove both brake pads and locating springs.</p>
+        </div>
+      </div>
+      <div id="rnr4b" class="rnr-text-hidden">
+        <div class="smr-text-container">
+        <p>Remove caliper carrier.</p>
+        </div>
+      </div>
+      <div id="rnr5b" class="rnr-text-hidden">
+        <div class="smr-text-container">
+        <p>Remove disc locating grub screw and lift off brake disc.</p>
+        <p>Installation can be in reverse order. Technicians must ensure the hub is clean for the brake disc to locate to and brake grease must be applied to the brake pad locating springs and the caliper sliders.</p>
+        </div>
+      </div>
+    </div>
+   </div>  
+   <div class="m-nav-container-top">
+  <a href="#" data-reitit-handle-click="false"><button id="top1" class="mobile"></button></a>
+  </div>
+</div>
+</body>
+</html>
