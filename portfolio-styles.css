@@ -73,6 +73,7 @@ p {
     width: 30px;
     height: 30px;
     position: absolute;
+    cursor: pointer;
     top: 28px;
     right: 20px;
     transition: 0.3s;
@@ -150,6 +151,7 @@ p {
     padding-bottom: 10px;
     border-radius: 4px;
     transition: 0.4s;
+    cursor: pointer;
 }
 
 .contents-card:hover {
@@ -177,6 +179,10 @@ p {
     animation: fadeIn 0.4s;
 }
 
+.portfolio-page video {
+    width: 100%;
+}
+
 .portfolio-page img,
 .portfolio-page-hidden img {
     width: 100%;
@@ -193,6 +199,7 @@ p {
     position: absolute;
     right: 20px;
     top: 16px;
+    cursor: pointer;
     transition: 0.4s;
 }
 
