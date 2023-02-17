@@ -32,6 +32,10 @@
             <img src="Images/project-3.png"/>
             <h2>Service, Maintenance & Repair training</h2>
         </div>
+        <div class="contents-card" onclick="document.getElementById('project-4').classList.add('portfolio-page');">
+            <img src="Images/project-4.png"/>
+            <h2>ADAS calibration module</h2>
+        </div>
     </div>
     <div class="portfolio-page-hidden" id="project-1">
         <h3>Flame Treatment Module</h3>
@@ -54,8 +58,17 @@
         <div class="close-button" onclick="document.getElementById('project-3').classList.remove('portfolio-page');">
             <img src="Images/Close.svg"/>
         </div>
-        <iframe class="portfolio-frame" src="html/SMR-Brakes.html" title="W3Schools Free Online Web Tutorials"></iframe>
+        <iframe class="portfolio-frame" src="html/SMR-Brakes.html" title="Brakes SMR fragment"></iframe>
         <p>This is an example of a structure created in HTML/CSS to present content required to educate learners in the SMR (Service, Maintenance, Repair) aspects of each vehicle system. The requirement was for three sections with text supported by either a 3D model, video animation, or image sequences. The 3D models were implemented using Google's Model Viewer API.</p>
+    </div>
+    <div class="portfolio-page-hidden" id="project-4">
+        <h3>ADAS calibration module</h3>
+        <div class="close-button" onclick="document.getElementById('project-4').classList.remove('portfolio-page');">
+            <img src="Images/Close.svg"/>
+        </div>
+        <video src="Images/ADAS edit.mp4" playsinline autoplay muted  loop></video>
+        <p>This module was created for Thatcham Research as a refresher on ADAS systems and an introduction to calibration. I described the basic ADAS functions using animations created in Adobe Animate, and the calibration procedure as a video tutorial with checkpoints to reinforce key information, which I filmed and edited</p>
+        <p>This is also an example of a redesign I completed on all Thatcham's e-learning modules. The look and feel was derived from then-current branding and the central idea was to move away from the 'slideshow' paradigm common in e-learning by having each progression as part of an interaction, and as such hopefully immerse the learner a bit more.</p>
     </div>
 </div>
 </body>
