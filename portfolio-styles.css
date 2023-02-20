@@ -57,6 +57,12 @@ h4 {
     line-height: 1.5rem;
 }
 
+#print-button {
+    float: left;
+    width: 20px;
+    margin-right: 10px;
+}
+
 p {
     font-family: "Roboto";
     letter-spacing: 1px;
