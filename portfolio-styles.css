@@ -8,6 +8,8 @@ html {
   }
 
 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     font-family: "Roboto Mono";
     font-weight: 300;
     font-size: 16px;
@@ -165,7 +167,7 @@ p {
 .portfolio-page-hidden {
     display: none;
     position: absolute;
-    width: auto;
+    width: 100%;
     background-color: #f2f2f2;
     padding-left: 20px;
     padding-right: 20px;

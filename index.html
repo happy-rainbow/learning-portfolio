@@ -3,6 +3,7 @@
 <head>
     <title>Doug Roberts - Projects</title>
     <script defer type="text/javascript" src="js/portfolio.js"></script>
+    <link rel="stylesheet" href="flickity.css">
     <link rel="stylesheet" href="portfolio-styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -35,6 +36,10 @@
         <div class="contents-card" onclick="document.getElementById('project-4').classList.add('portfolio-page');">
             <img src="Images/project-4.png"/>
             <h2>ADAS calibration module</h2>
+        </div>
+        <div class="contents-card" onclick="document.getElementById('project-5').classList.add('portfolio-page');">
+            <img src="Images/project-3.png"/>
+            <h2>Animations</h2>
         </div>
     </div>
     <div class="portfolio-page-hidden" id="project-1">
@@ -70,6 +75,15 @@
         <p>This module was created for Thatcham Research as a refresher on ADAS systems and an introduction to calibration. I described the basic ADAS functions using animations created in Adobe Animate, and the calibration procedure as a video tutorial with checkpoints to reinforce key information, which I filmed and edited</p>
         <p>This is also an example of a redesign I completed on all Thatcham's e-learning modules. The look and feel was derived from then-current branding and the central idea was to move away from the 'slideshow' paradigm common in e-learning by having each progression as part of an interaction, and as such hopefully immerse the learner a bit more.</p>
     </div>
+    <div class="portfolio-page-hidden" id="project-5">
+        <h3>Animations</h3>
+        <div class="close-button" onclick="document.getElementById('project-5').classList.remove('portfolio-page');">
+            <img src="Images/Close.svg"/>
+        </div>
+        <iframe class="portfolio-frame" src="html/Gallery.html" title="Brakes SMR fragment"></iframe>
+        <p>Animations created to illustrate various automotive functions and parts. As Arrival was producing an in-house vehicle, many of these could use CAD data to create specific and accurate representations. For the 2D animations, I rendered images from CAD models and used Photoshop to prepare them as assets for animation in After Effects. For 3D animation, I used Keyshot to apply materials, render and animate parts.</p>
+    </div>
 </div>
+<script src="js/flickity.pkgd.js"></script>
 </body>
 </html>
