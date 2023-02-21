@@ -138,6 +138,7 @@ https://flickity.metafizzy.co
 
 .gallery-cell {
   width: 100%;
+  height: 100%;
 }
 
 .gallery-cell > video {
@@ -145,5 +146,5 @@ https://flickity.metafizzy.co
   max-height: 100vh;
   position: relative;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
