@@ -277,6 +277,11 @@ details summary::-webkit-details-marker {
     padding-bottom: 5px;
 }
 
+.content h4 {
+    margin: 0;
+    padding-top: 1rem;
+}
+
 table {
     border-spacing: 3px;
 }
