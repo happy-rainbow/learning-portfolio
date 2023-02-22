@@ -284,6 +284,7 @@ details summary::-webkit-details-marker {
 
 table {
     border-spacing: 3px;
+
 }
 
 .content table p {
@@ -317,5 +318,19 @@ table .score-1 {
         position: fixed;
         overflow-y: auto;
         z-index: 11;
+    }
+
+    .table-row-title {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .table-row-title {
+        width: 65%;
+    }
+
+    th p {
+        font-size: 12px;
     }
 }
